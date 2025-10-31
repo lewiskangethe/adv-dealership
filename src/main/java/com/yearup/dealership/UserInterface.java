@@ -14,6 +14,8 @@ public class UserInterface {
         DealershipFileManager dealershipFileManager = new DealershipFileManager();
         this.dealership = dealershipFileManager.getDealership();
 
+        boolean running = true
+
 
         // Print all vehicles in the inventory
         System.out.println("Inventory for " + dealership.getAllVehicles().size() + " vehicles ");
