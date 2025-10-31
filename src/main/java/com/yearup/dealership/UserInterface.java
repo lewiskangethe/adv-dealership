@@ -7,7 +7,7 @@ public class UserInterface {
     private Scanner scanner = new Scanner(System.in);
 
 
-    public void display(){
+    public void display() {
 
         System.out.println("Dealership App");
 
@@ -25,6 +25,5 @@ public class UserInterface {
         }
 
     }
-
 
 }
